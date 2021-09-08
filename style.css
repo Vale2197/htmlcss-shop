@@ -21,11 +21,12 @@
         margin: auto;
         background-image: url("./img/1.webp");
         height: 450px;
-        width: calc(100% / 3 - 1rem);
+        width: calc(100% / 3 - 0.4rem);
         background-position: center;
         background-size: cover;
         position: relative;
-        margin: 0 0.5rem;
+        margin: 0 0.2rem;
+        float: left;
     }
 
     #riga1 .articolo1 .sconto {
@@ -88,5 +89,133 @@
         text-decoration: line-through;
     }
     /* / ARTICOLO 1 */
+
+    /* ARTICOLO 2 */
+    #riga1 .articolo2 {
+        margin: auto;
+        background-image: url("./img/2.webp");
+        height: 450px;
+        width: calc(100% / 3 - 0.4rem);
+        background-position: top;
+        background-size: cover;
+        position: relative;
+        margin: 0 0.2rem;
+        float: left;
+    }
+
+    #riga1 .articolo2 .sconto {
+        position: absolute;
+        bottom: 1rem;
+        left: 0;
+    }
+
+    #riga1 .articolo2 .like {
+        position: absolute;
+        top: 1rem;
+        right: 0;
+    }
+
+    #riga1 .articolo2 .descrizione {
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+
+    .articolo2 .like {
+        font-size: 30px;
+        background-color: white;
+        padding: 3px 13px;
+    }
+
+    .articolo2 .discount {
+        background-color: #EB0037;
+        font-size: 18px;
+        color: white;
+        padding: 3px;
+        padding-left: 7px;
+    }
+
+    .articolo2 .descrizione p:first-child span {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .articolo2 .descrizione p:first-child {
+        font-weight: bold;
+    }
+
+    .articolo2 .descrizione .price {
+        color: red;
+        font-weight: bold;
+    }
+
+    .articolo2 .descrizione .price span {
+        color: black;
+        font-weight: normal;
+        text-decoration: line-through;
+    }
+
+    /* / ARTICOLO 2 */
+
+    /* ARTICOLO 3 */
+    #riga1 .articolo3 {
+        margin: auto;
+        background-image: url("./img/3.webp");
+        height: 450px;
+        width: calc(100% / 3 - 0.4rem);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        margin: 0 0.2rem;
+        float: left;
+    }
+
+    #riga1 .articolo3 .sconto {
+        position: absolute;
+        bottom: 1rem;
+        left: 0;
+    }
+
+    #riga1 .articolo3 .like {
+        position: absolute;
+        top: 1rem;
+        right: 0;
+    }
+
+    #riga1 .articolo3 .descrizione {
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+
+    .articolo3 .like {
+        font-size: 30px;
+        background-color: white;
+        padding: 3px 13px;
+    }
+
+    .articolo3 .discount {
+        background-color: #EB0037;
+        font-size: 18px;
+        color: white;
+        padding: 3px;
+        padding-left: 7px;
+    }
+
+    .articolo3 .descrizione p:first-child span {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .articolo3 .descrizione p:first-child {
+        font-weight: bold;
+    }
+
+    .articolo3 .descrizione .price {
+        color: red;
+        font-weight: bold;
+    }
+
+    /* / ARTICOLO 3 */
 
 /* / RIGA 1 */
