@@ -10,3 +10,83 @@
     clear: both;
 }
 
+#mainContainer {
+    width: 70%;
+    margin: auto;
+}
+
+/* RIGA 1 */
+    /* ARTICOLO 1 */
+    #riga1 .articolo1 {
+        margin: auto;
+        background-image: url("./img/1.webp");
+        height: 450px;
+        width: calc(100% / 3 - 1rem);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        margin: 0 0.5rem;
+    }
+
+    #riga1 .articolo1 .sconto {
+        position: absolute;
+        bottom: 1rem;
+        left: 0;
+    }
+
+    #riga1 .articolo1 .like {
+        position: absolute;
+        top: 1rem;
+        right: 0;
+    }
+
+    #riga1 .articolo1 .descrizione {
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+
+    .articolo1 .like {
+        font-size: 30px;
+        background-color: white;
+        padding: 3px 13px;
+    }
+
+    .articolo1 .discount {
+        background-color: #EB0037;
+        font-size: 18px;
+        color: white;
+        padding: 3px;
+        padding-left: 7px;
+    }
+
+    .articolo1 .green {
+        background-color: #00875A;
+        font-size: 18px;
+        color: white;
+        padding: 3px;
+        margin-left: 0.2rem;
+    }
+
+    .articolo1 .descrizione p:first-child span {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .articolo1 .descrizione p:first-child {
+        font-weight: bold;
+    }
+
+    .articolo1 .descrizione .price {
+        color: red;
+        font-weight: bold;
+    }
+
+    .articolo1 .descrizione .price span {
+        color: black;
+        font-weight: normal;
+        text-decoration: line-through;
+    }
+    /* / ARTICOLO 1 */
+
+/* / RIGA 1 */
