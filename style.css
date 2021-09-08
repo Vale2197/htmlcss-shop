@@ -15,6 +15,10 @@
     margin: auto;
 }
 
+.like:hover {
+    color: red;
+}
+
 /* RIGA 1 */
     /* ARTICOLO 1 */
     #riga1 .articolo1 {
@@ -27,6 +31,7 @@
         position: relative;
         margin: 0 0.2rem;
         float: left;
+        transition: 0.5s;
     }
 
     #riga1 .articolo1 .sconto {
@@ -88,6 +93,14 @@
         font-weight: normal;
         text-decoration: line-through;
     }
+
+    #riga1 .articolo1:hover {
+        position: relative;
+        top: 0.3rem;
+        background-image: url("./img/1b.webp");
+        background-position: center;
+        background-size: cover;
+    }
     /* / ARTICOLO 1 */
 
     /* ARTICOLO 2 */
@@ -101,6 +114,7 @@
         position: relative;
         margin: 0 0.2rem;
         float: left;
+        transition: 0.5s;
     }
 
     #riga1 .articolo2 .sconto {
@@ -155,6 +169,13 @@
         text-decoration: line-through;
     }
 
+    #riga1 .articolo2:hover {
+        position: relative;
+        top: 0.3rem;
+        background-image: url("./img/2b.webp");
+        background-position: center;
+        background-size: cover;
+    }
     /* / ARTICOLO 2 */
 
     /* ARTICOLO 3 */
@@ -168,6 +189,7 @@
         position: relative;
         margin: 0 0.2rem;
         float: left;
+        transition: 0.5s;
     }
 
     #riga1 .articolo3 .sconto {
@@ -216,6 +238,14 @@
         font-weight: bold;
     }
 
+    #riga1 .articolo3:hover {
+        position: relative;
+        top: 0.3rem;
+        background-image: url("./img/3b.webp");
+        background-position: center;
+        background-size: cover;
+    }
+
     /* / ARTICOLO 3 */
 
 /* / RIGA 1 */
@@ -235,6 +265,7 @@
     position: relative;
     margin: 0 0.2rem;
     float: left;
+    transition: 0.5s;
 }
 
 #riga2 .articolo4 .sconto {
@@ -296,6 +327,14 @@
     font-weight: normal;
     text-decoration: line-through;
 }
+
+#riga2 .articolo4:hover {
+    position: relative;
+    top: 0.3rem;
+    background-image: url("./img/4b.webp");
+    background-position: center;
+    background-size: cover;
+}
 /* / ARTICOLO 4 */
 
 /* ARTICOLO 5 */
@@ -309,6 +348,7 @@
     position: relative;
     margin: 0 0.2rem;
     float: left;
+    transition: 0.5s;
 }
 
 #riga2 .articolo5 .like {
@@ -343,6 +383,13 @@
     font-weight: bold;
 }
 
+#riga2 .articolo5:hover {
+    position: relative;
+    top: 0.3rem;
+    background-image: url("./img/5b.webp");
+    background-position: center;
+    background-size: cover;
+}
 /* / ARTICOLO 5 */
 
 /* ARTICOLO 6 */
@@ -356,6 +403,7 @@
     position: relative;
     margin: 0 0.2rem;
     float: left;
+    transition: 0.5s;
 }
 
 #riga2 .articolo6 .sconto {
@@ -404,6 +452,13 @@
     font-weight: bold;
 }
 
+#riga2 .articolo6:hover {
+    position: relative;
+    top: 0.3rem;
+    background-image: url("./img/6b.webp");
+    background-position: center;
+    background-size: cover;
+}
 /* / ARTICOLO 6 */
 
 /* / SECONDA RIGA */
